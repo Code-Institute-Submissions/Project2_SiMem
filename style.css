@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    text-align:center;
+    margin-top:100px;
+}
+
+.option {
+        height:100px;
+        width:100px;
+        margin: 20px auto 20px auto;
+        border-radius: 25px;
+        text-align:center;
+        display: block;
+        cursor:pointer;  
+
+}
+
+.option:hover {
+    border:1px solid orangered;
+    box-shadow: inset 0px 0px 0px 3px cyan;
+    box-sizing: border-box;
+}
+
+.bottom-left-square {
+        background-color:red;
+}
+.bottom-right-square {
+        background-color:green;
+    }
+
+.top-left-square {
+        background-color:blue;
+         }
+
+.top-right-square {
+        background-color:yellow;
+      }
