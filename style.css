@@ -9,12 +9,19 @@ body {
 
 .gameBanner {
     background-color: lightskyblue;
-    min-height: 100px;
     margin: 0px 50px 0px 50px;
+    padding:10px;
 }
-.display {
 
-    background-color: #ff9966;
+
+.levelDisplay{
+
+ background: #330000;
+  color: red;
+  font-family: courier;
+  width: 150px;
+  height:50px;
+  margin:auto;
 }
 
 .gameFont {
@@ -33,12 +40,12 @@ body {
 }
 
 .button {
-  border-radius: 50%;
+  border-radius: 25%;
   background-color: lightgray;
 }
 
 .buttonP {
-  border-radius: 50%;
+  border-radius: 25%;
   font-size: 1.5em;
   background-color: red;
 }
