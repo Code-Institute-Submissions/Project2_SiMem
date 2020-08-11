@@ -12,7 +12,7 @@ body {
     min-height: 100px;
     margin: 0px 50px 0px 50px;
 }
-.blackout {
+.display {
 
     background-color: #ff9966;
 }
@@ -34,7 +34,6 @@ body {
 
 .button {
   border-radius: 50%;
-  font-size: 1.5em;
   background-color: lightgray;
 }
 
