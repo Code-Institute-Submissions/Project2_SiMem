@@ -13,13 +13,14 @@ let flash;
 const onButton = document.querySelector(".power");
 const startButton = document.querySelector(".start");
 const turnCounter = document.querySelector(".levelDisplay");
-const option1 = document.querySelector(".top-1-blue");
-const option2 = document.querySelector(".top-2-yellow");
-const option3 = document.querySelector(".bottom-1-red");
-const option4 = document.querySelector(".bottom-2-green");
+const option1 = document.querySelector(".top-1-green");
+const option2 = document.querySelector(".top-2-red");
+const option3 = document.querySelector(".bottom-1-yellow");
+const option4 = document.querySelector(".bottom-2-blue");
 const nightBanner = document.querySelector(".gameBanner")
 const nightBoard = document.querySelector(".board");
 const nightBody = document.body;
+
 
 function nightTime() {
 
@@ -46,6 +47,7 @@ onButton.addEventListener('click', (event) => {
 
 startButton.addEventListener('click', (event) => {
   if (on || win) {
+    startButton.innerHTML = "Lets Begin";
     play();
   }
 });
@@ -218,7 +220,6 @@ function check() {
         intervalId = setInterval(gameTurn, 800);
       }
     }, 800);
-
     noise = false;
   }
 
@@ -230,7 +231,6 @@ function check() {
     turnCounter.innerHTML = turn;
     intervalId = setInterval(gameTurn, 800);
   }
-
 }
 
 function winGame() {

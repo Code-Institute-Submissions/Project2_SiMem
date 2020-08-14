@@ -44,8 +44,9 @@ body {
   background-color: lightgray;
 }
 
-.gameMode {
-    opacity: 0.2;
+.power {
+    width: 50px;
+    height:20px;
 }
 
 
@@ -59,13 +60,14 @@ body {
 
 .nightMode {
     background: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size:cover;
 }
 
 .nightMode2 {
     background:url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-size:cover;
+    opacity:0.8;
 }
 
 .option {
@@ -84,18 +86,18 @@ body {
 }
 
 
-.top-1-blue {
-        background-color:blue;
+.top-1-green {
+        background-color:green;
          }
 
-.top-2-yellow {
-        background-color:yellow;
+.top-2-red {
+        background-color:red;
       }
       
-.bottom-1-red {
-        background-color:red;
+.bottom-1-yellow {
+        background-color:yellow;
 }
-.bottom-2-green {
-        background-color:green;
+.bottom-2-blue {
+        background-color:blue;
     }
 
