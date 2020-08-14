@@ -25,7 +25,7 @@ function nightTime() {
 
     nightBody.classList.toggle("nightMode");
     nightBanner.classList.toggle("nightMode");
-    nightBoard.classList.toggle("nightMode");
+    nightBoard.classList.toggle("nightMode2");
 
 }
 
