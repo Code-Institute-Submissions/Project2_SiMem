@@ -38,12 +38,12 @@ onButton.addEventListener('click', (event) => {
 	if (onButton.checked == true) {
 		on = true;
 		turnCounter.innerHTML = "-";
-		startButton.innerHTML = "Lets Begin";
+		startButton.innerHTML = "Start";
 	}
 	else {
 		on = false;
 		turnCounter.innerHTML = "";
-		startButton.innerHTML = "Start";
+		startButton.innerHTML = "Need Power";
 		clearColor();
 		clearInterval(intervalId);
 	}
@@ -216,7 +216,7 @@ function check() {
 	if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1]) good = false;
 
 	// Sets how many levels until the player wins
-	if (playerOrder.length == 5 && good) {
+	if (playerOrder.length == 6 && good) {
 		winGame();
 	}
 

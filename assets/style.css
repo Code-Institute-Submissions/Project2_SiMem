@@ -39,6 +39,8 @@
  .button {
      border-radius: 25%;
      background-color: lightgray;
+     outline: none !important;
+    box-shadow: none !important;
 }
  .power {
      width: 50px;
