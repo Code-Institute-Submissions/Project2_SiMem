@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="../assets/style.css">
-       <audio id="clip1">
-  	<source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
-  </audio>
-  <audio id="clip2">
-  	<source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
-  </audio>
-  <audio id="clip3">
-  	<source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
-  </audio>
-  <audio id="clip4">
-  	<source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
-  </audio>
- 
-    <title>SIMEM PROJECT 2</title>
-</head>
-<body>
-<header>
-<div class="row gameBanner gameFont">
 
-<div class="gameTitle titleFont col-md-3 col-sm-12 col-xs-12">SIMEM</div>
-<div class="col-md-3 col-sm-12 col-xs-12"><button onclick="nightTime()" class="button"> <h2> Night Mode </h2> </button></div>
-<div class="col-md-3 col-sm-12 col-xs-12"> Level 
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link rel="stylesheet" href="../assets/style.css">
+      <!-- External Audio Files For Game Noises -->
+      <audio id="clip1">
+         <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+      </audio>
+      <audio id="clip2">
+         <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+      </audio>
+      <audio id="clip3">
+         <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+      </audio>
+      <audio id="clip4">
+         <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+      </audio>
+      <title>SIMEM PROJECT 2</title>
+   </head>
 
-<div class="levelDisplay">
+   <body>
+      <header>
+         <!-- Header Section contains title, night mode, level and power HTML 
+            the level counter is initially left blank until power is turned on
+            -->
+         <div class="row gameBanner gameFont">
+            <div class="gameTitle titleFont col-md-3 col-sm-12 col-xs-12">SIMEM</div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+               <button onclick="nightTime()" class="button">
+                  <h2> Night Mode </h2>
+               </button>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12">
+               Level 
+               <div class="levelDisplay">
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-12 col-xs-12"> Power <input type="checkbox" class="power"></div>
+         </div>
+      </header>
 
-</div>
+      <!-- Contains FrontEnd for Start button, Game Options and how to guide button -->
+      <div class="board gameFont">
+         <div> <button class="button start"> Start </button></div>
+         <div class="option top-1-green"></div>
+         <div class="option top-2-red"></div>
+         <div class="option bottom-1-yellow"></div>
+         <div class="option bottom-2-blue"></div>
 
-</div>
-<div class="col-md-3 col-sm-12 col-xs-12"> Power <input type="checkbox" class="power"></div>
-
-</div>
-
-
-</header>
-<div class="board gameFont">
-    <div> <button class="button start"> Start </button></div>
-    
-    <div class="option top-1-green"></div>
-    <div class="option top-2-red"></div>
-    
-    
-    <div class="option bottom-1-yellow"></div>
-    <div class="option bottom-2-blue"></div>
-    
-
-</div> 
+      <!-- Button which when selected prompts a 'how to guide' on how to play the game.  -->
+         <div>
+            <button onclick="alert('Hey welcome to SiMem!\nTo play click on the Power button\nPress Start to initiate the game\nClick on the squares that light up after SiMem has finished to proceed to the next level\nGet to 5 and you win!\nGood Luck!')">How To Play</button>
+         </div>
+      </div>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src="../assets/main.js"></script> 
-</body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <script src="../assets/main.js"></script> 
+   </body>
 </html>

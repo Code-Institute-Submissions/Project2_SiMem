@@ -1,103 +1,94 @@
-body {
-    background: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: no-repeat;
-    background-size:auto;
-    text-align:center;
-    margin-top:100px;
+/* -- Bluesky Background and offset of 100px for game position --*/
+ body {
+     background: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+     background-repeat: no-repeat;
+     background-size:auto;
+     text-align:center;
+     margin-top:100px;
 }
-
-
-.gameBanner {
-    background-color: lightskyblue;
-    margin: 0px 50px 0px 50px;
-    padding:10px;
+/* -- Set up for title section of Simem game --*/
+ .gameBanner {
+     background-color: lightskyblue;
+     margin: 0px 50px 0px 50px;
+     padding:10px;
 }
-
-
-.levelDisplay{
-
- background: #330000;
-  color: red;
-  font-family: courier;
-  width: 150px;
-  height:50px;
-  margin:auto;
+/* -- Styling for LevelCounter activated when Power checkbox is checked --*/
+ .levelDisplay{
+     background: #330000;
+     color: red;
+     font-family: courier;
+     width: 150px;
+     height:50px;
+     margin:auto;
 }
-
-.gameFont {
-    text-align:center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 300%;
-    color:  whitesmoke;
-    text-shadow: rgb(0, 12, 17) 2px 0px 0px, rgb(0, 12, 17) 1.75517px 0.958851px 0px, rgb(0, 12, 17) 1.0806px 1.68294px 0px, rgb(0, 12, 17) 0.141474px 1.99499px 0px, rgb(0, 12, 17) -0.832294px 1.81859px 0px, rgb(0, 12, 17) -1.60229px 1.19694px 0px, rgb(0, 12, 17) -1.97998px 0.28224px 0px, rgb(0, 12, 17) -1.87291px -0.701566px 0px, rgb(0, 12, 17) -1.30729px -1.5136px 0px, rgb(0, 12, 17) -0.421592px -1.95506px 0px, rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
+/* -- Font Section for SIMEM title and black and white text seen in game --*/
+ .gameFont {
+     text-align:center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     font-size: 300%;
+     color: whitesmoke;
+     text-shadow: rgb(0, 12, 17) 2px 0px 0px, rgb(0, 12, 17) 1.75517px 0.958851px 0px, rgb(0, 12, 17) 1.0806px 1.68294px 0px, rgb(0, 12, 17) 0.141474px 1.99499px 0px, rgb(0, 12, 17) -0.832294px 1.81859px 0px, rgb(0, 12, 17) -1.60229px 1.19694px 0px, rgb(0, 12, 17) -1.97998px 0.28224px 0px, rgb(0, 12, 17) -1.87291px -0.701566px 0px, rgb(0, 12, 17) -1.30729px -1.5136px 0px, rgb(0, 12, 17) -0.421592px -1.95506px 0px, rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
 }
-
-.titleFont {
-    text-align:center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color:  #ff9966;
-    text-shadow: rgb(0, 12, 17) 2px 0px 0px, rgb(0, 12, 17) 1.75517px 0.958851px 0px, rgb(0, 12, 17) 1.0806px 1.68294px 0px, rgb(0, 12, 17) 0.141474px 1.99499px 0px, rgb(0, 12, 17) -0.832294px 1.81859px 0px, rgb(0, 12, 17) -1.60229px 1.19694px 0px, rgb(0, 12, 17) -1.97998px 0.28224px 0px, rgb(0, 12, 17) -1.87291px -0.701566px 0px, rgb(0, 12, 17) -1.30729px -1.5136px 0px, rgb(0, 12, 17) -0.421592px -1.95506px 0px, rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
+ .titleFont {
+     text-align:center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+     color: #ff9966;
+     text-shadow: rgb(0, 12, 17) 2px 0px 0px, rgb(0, 12, 17) 1.75517px 0.958851px 0px, rgb(0, 12, 17) 1.0806px 1.68294px 0px, rgb(0, 12, 17) 0.141474px 1.99499px 0px, rgb(0, 12, 17) -0.832294px 1.81859px 0px, rgb(0, 12, 17) -1.60229px 1.19694px 0px, rgb(0, 12, 17) -1.97998px 0.28224px 0px, rgb(0, 12, 17) -1.87291px -0.701566px 0px, rgb(0, 12, 17) -1.30729px -1.5136px 0px, rgb(0, 12, 17) -0.421592px -1.95506px 0px, rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
 }
-
-.button {
-  border-radius: 25%;
-  background-color: lightgray;
+/* -- Button and checkbox Styling --*/
+ .button {
+     border-radius: 25%;
+     background-color: lightgray;
 }
-
-.power {
-    width: 50px;
-    height:20px;
+ .power {
+     width: 50px;
+     height:20px;
 }
-
-
-.board {
-    background: url("https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1670977.jpg&fm=jpg") , no-repeat ;
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding: 10px;
-    margin: 0px 50px 0px 50px;
+/* -- Background Image For where the options are displayed on --*/
+ .board {
+     background: url("https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1670977.jpg&fm=jpg") , no-repeat ;
+     background-repeat: no-repeat;
+     background-size:cover;
+     padding: 10px;
+     margin: 0px 50px 0px 50px;
 }
-
-.nightMode {
-    background: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-    background-repeat: repeat;
-    background-size:cover;
+/* -- Styling For nightMode which is activated via nightTime function --*/
+ .nightMode {
+     background: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+     background-repeat: repeat;
+     background-size:cover;
 }
-
-.nightMode2 {
-    background:url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-    background-size:cover;
-    opacity:0.8;
+/* -- nightMode2 incorporates opactiy on the options to reduce brightness of flash --*/
+ .nightMode2 {
+     background:url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+     background-size:cover;
+     opacity:0.8;
 }
-
-.option {
-        height:100px;
-        width:100px;
-        margin: 20px auto 20px auto;
-        border-radius: 25px;
-        display: block;
-        cursor:pointer;  
+/* -- General Option styling applied to each option --*/
+ .option {
+     height:100px;
+     width:100px;
+     margin: 20px auto 20px auto;
+     border-radius: 25px;
+     display: block;
+     cursor:pointer;
 }
-
-.option:hover {
-    border:1px solid orangered;
-    box-shadow: inset 0px 0px 0px 3px cyan;
-    box-sizing: border-box;
+ .option:hover {
+     border:1px solid orangered;
+     box-shadow: inset 0px 0px 0px 3px cyan;
+     box-sizing: border-box;
 }
-
-
-.top-1-green {
-        background-color:green;
-         }
-
-.top-2-red {
-        background-color:red;
-      }
-      
-.bottom-1-yellow {
-        background-color:yellow;
+/* -- Separates one option from the other via different background colors --*/
+ .top-1-green {
+     background-color:green;
 }
-.bottom-2-blue {
-        background-color:blue;
-    }
-
+ .top-2-red {
+     background-color:red;
+}
+ .bottom-1-yellow {
+     background-color:yellow;
+}
+ .bottom-2-blue {
+     background-color:blue;
+}
+ 
