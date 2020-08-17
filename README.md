@@ -23,79 +23,55 @@ The user group for SiMem is anyone with basic computer skills simply look to pla
 * Be somewhat mentally stimulated
 * relax and unwind
 
-These ambitions are acheived through SiMems: 
+These ambitions are achieved through SiMems: 
 
 * Having an easy to use gaming experience
 * Encouraging messages in the How To Play pop up and Win! message when one completes the game
 * Having a night mode feature to reduce harsh lighting and flashes throughout the gameplay
 * Minimalistic approach via as few buttons as possible with only one page to play the game compared to other apps nowadays.
 
+## User Stories
+
+As a general user who plays games on the internet, I want to:
+
+ * See my progress as I play through the game.
+ * Have quick access to the rules of the game displayed in a simple form.
+ * Be shown when I beat the game and have the option to play again.
+ * Start playing the game in as few clicks as possible.
+ * Play the game with a simplistic layout so I can focus on the game.
+ * The option to reduce the intensity of the brightness on my screen. 
+
+## Mockup Design
+
+Originally SiMem was under the name of Membrane in an initial brainstorm idea. As you can see some features of the original can be seen in the final edition of the game. 
+
+### Link To Membrane:
+https://drive.google.com/file/d/1oxHTh8vgk1qMRi2Tmb8fSshU0MzsMpMC/view?usp=sharing
 
 
+# features
 
 ## Night Mode
-The night mode feature has two purposes. Upon clicking the "Night Mode" button it turns the blue sky background, light blue banner and yellow image all into the night sky with the opacity decreased. 
+The night mode feature has two purposes. Upon clicking the Night Mode button it turns the blue sky background, light blue banner and yellow image all into the night sky with the opacity decreased on the game options section to reduce intensity of flashes. 
 
-Use this section to provide insight into your UX process,
+It serves both the purpose of:
 
-focusing on who this website is for, what it is that they want to achieve and 
- 
- how your project is the best way to help them achieve these things.
+ * Changing the mood from bright and entertaining to calm and relaxing depending on the environment and feelings of the user.
+ * Reduce intensity of screen brightness through the opacity and using the dark black background of the night sky. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+## Level Counter display
+Next to the Night Mode button we have the level counter display. When the user powers up the game it starts with the display set to 1 to show that the user is on the first level. 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+As you the user progresses through the game the counter will go up by 1 to reflect each level the user is on. Once the user passes the 6th level they will have completed the game where the Level Display Counter will convey "Win!". This lets the user know they have successfully completed the game. 
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+If the user gets something incorrect the Display will convey "No!" to show that they did not match what the computer selected. 
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+## Power 
+Once the user has selected the power button this will prompt the computer to begin the game. The game is completely unresponsive until the Power button is selected. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+## How To Play
+The "How To Play" button pops up a display showing the user the rules of the game, winning criteria and what to do if an incorrect option is selected. 
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## options
+In each level the computer will highlight a set number 
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
