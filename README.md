@@ -36,10 +36,9 @@ As a general user who plays games on the internet, I want to:
 
  * See my progress as I play through the game.
  * Have quick access to the rules of the game displayed in a simple form.
- * Be shown when I beat the game and have the option to play again.
  * Start playing the game in as few clicks as possible.
  * Play the game with a simplistic layout so I can focus on the game.
- * The option to reduce the intensity of the brightness on my screen. 
+ * Have the option to reduce the intensity of the brightness on my screen. 
 
 ## Mockup Design
 
@@ -70,8 +69,54 @@ If the user gets something incorrect the Display will convey "No!" to show that 
 Once the user has selected the power button this will prompt the computer to begin the game. The game is completely unresponsive until the Power button is selected. 
 
 ## How To Play
-The "How To Play" button pops up a display showing the user the rules of the game, winning criteria and what to do if an incorrect option is selected. 
+The "How To Play" button brings the user to another page showing the user the rules of the game, winning criteria and what to do if an incorrect option is selected. Below that is another button "Back To SiMem" to bring the user back to the game. 
 
 ## options
-In each level the computer will highlight a set number 
+In first the level the computer will highlight one of the squares and then wait for the user to select that square. Each level will add another highlighted square to the sequence every level until the user is finally prompted to complete the 6th level before completing the game. 
+
+
+# Features Left To Implement
+
+## More Levels button
+
+If time was on my side I would change the value input of 6 for the winning criteria to a variable called levelWin. Following that I would create a function called moreLevels() that when the user clicked a "More Levels" button on the game banner an event lister would be activated adding +5 to the LevelWin variable. 
+
+This allows for both longer version of the game and since it is a memory game that gets harder with each level you would also be increasing the difficulty later in the game. 
+
+# Technologies Used
+
+ * HTML, CSS and Javascript were the programming languages used in the coding of this project.
+ * For scaling Bootstrap CDN was used to add a more responsive website
+ 
+# Testing 
+
+### As a general user who plays games on the internet, I want to see my progress as I play through the game
+
+The level display counter increments by 1 every time the user completes a level. This notifies them that they have progressed to the next round. Once they have completed they game they will know as the display counter will say "WIN!".
+
+### As a general user I want to have quick access to the rules of the game displayed in a simple form
+
+In big writing there is a How To Play button which takes the user to another page with the instructions simply laid out in bullet points. 
+
+### As a general user I want to Start playing the game in as few clicks as possible.
+
+Once the user is familiar with the instructions they can begin the game in as little as 2 clicks and won't have to load through endless menus before getting to the game. Simply power on as instructed and click the Start button to begin. 
+
+If they are new to the website in 4 clicks they can be playing the SiMem game via clicking How To Play, Back To Game and then proceeding to Power on the game and Start to begin.
+
+### As a general user I want to Play the game with a simplistic layout so I can focus on the game.
+
+When the user loads the website they are given all options to begin the game in one row above the options panel. If they are new to the site they can access all the instructions layed out simply in bullet points on the How To Play page. 
+
+This way there is no question on how to navigate the game and keep the focus on beating SiMem
+
+### As a general user I want to Have the option to reduce the intensity of the brightness on my screen.
+
+Testing completed with the lights off while in the dark to evaluate the difference in intensity of the light. 
+
+When the user selects the Night Mode button the blue sky background is replace with the dark night sky. Instantly the strain on the users eyes are reduced due to the lack of white light being projected from the screen from the bright colour blue. 
+
+The opacity factor on the options instantly comes into play in order to reduce the harsh bright effect of the flash while playing the game. 
+
+
 
