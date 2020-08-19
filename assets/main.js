@@ -17,8 +17,8 @@ const turnCounter = document.querySelector(".levelDisplay"); // Level Counter Ac
 // Consts For Options
 const option1 = document.querySelector(".top-1-green");
 const option2 = document.querySelector(".top-2-red");
-const option3 = document.querySelector(".bottom-1-yellow");
-const option4 = document.querySelector(".bottom-2-blue");
+const option3 = document.querySelector(".bottom-3-yellow");
+const option4 = document.querySelector(".bottom-4-blue");
 // NightMode Consts
 const nightBanner = document.querySelector(".gameBanner")
 const nightBoard = document.querySelector(".board");
@@ -67,7 +67,7 @@ function play() {
 	turn = 1;
 	turnCounter.innerHTML = 1;
 	good = true;
-	for (var i = 0; i < 5; i++) {
+	for (var i = 0; i < 6; i++) {
 		order.push(Math.floor(Math.random() * 4) + 1);
 	}
 	compTurn = true;
