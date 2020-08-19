@@ -6,6 +6,10 @@
      text-align:center;
      margin-top:100px;
 }
+
+ body ul {
+    text-align: left;
+}
 /* -- Set up for title section of Simem game --*/
  .gameBanner {
      background-color: lightskyblue;
@@ -35,21 +39,49 @@
      rgb(0, 12, 17) -1.60229px 1.19694px 0px,
      rgb(0, 12, 17) -1.97998px 0.28224px 0px,
      rgb(0, 12, 17) -1.87291px -0.701566px 0px,
-     rgb(0, 12, 17) -1.30729px -1.5136px 0px, rgb(0, 12, 17) -0.421592px -1.95506px 0px, rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
+     rgb(0, 12, 17) -1.30729px -1.5136px 0px, 
+     rgb(0, 12, 17) -0.421592px -1.95506px 0px, 
+     rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
 }
  .titleFont {
      text-align:center;
      font-family: "Comic Sans MS", cursive, sans-serif;
      color: #ff9966;
-     text-shadow: rgb(0, 12, 17) 2px 0px 0px, rgb(0, 12, 17) 1.75517px 0.958851px 0px, rgb(0, 12, 17) 1.0806px 1.68294px 0px, rgb(0, 12, 17) 0.141474px 1.99499px 0px, rgb(0, 12, 17) -0.832294px 1.81859px 0px, rgb(0, 12, 17) -1.60229px 1.19694px 0px, rgb(0, 12, 17) -1.97998px 0.28224px 0px, rgb(0, 12, 17) -1.87291px -0.701566px 0px, rgb(0, 12, 17) -1.30729px -1.5136px 0px, rgb(0, 12, 17) -0.421592px -1.95506px 0px, rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
+     text-shadow: rgb(0, 12, 17) 2px 0px 0px,
+    rgb(0, 12, 17) 1.75517px 0.958851px 0px,
+    rgb(0, 12, 17) 1.0806px 1.68294px 0px,
+    rgb(0, 12, 17) 0.141474px 1.99499px 0px, 
+    rgb(0, 12, 17) -0.832294px 1.81859px 0px, 
+    rgb(0, 12, 17) -1.60229px 1.19694px 0px, 
+    rgb(0, 12, 17) -1.97998px 0.28224px 0px, 
+    rgb(0, 12, 17) -1.87291px -0.701566px 0px, 
+    rgb(0, 12, 17) -1.30729px -1.5136px 0px, 
+    rgb(0, 12, 17) -0.421592px -1.95506px 0px, 
+    rgb(0, 12, 17) 0.567324px -1.91785px 0px, rgb(0, 12, 17) 1.41734px -1.41108px 0px, rgb(0, 12, 17) 1.92034px -0.558831px 0px;
 }
 /* -- Button and checkbox Styling --*/
  .button {
-     border-radius: 25%;
+     border-radius: 20%;
      background-color: lightgray;
      outline: none !important;
     box-shadow: none !important;
 }
+
+.button a {
+    text-decoration: none;
+}
+
+ .buttonHowTo {
+     border-radius: 20%;
+     background-color: lightgray;
+     outline: none !important;
+     box-shadow: none !important;
+}
+
+.buttonHowTo a {
+    text-decoration: none;
+}
+
  .power {
      width: 50px;
      height:20px;
@@ -62,6 +94,13 @@
      padding: 10px;
      margin: 0px 50px 0px 50px;
 }
+
+.boardHowTo {
+    background-color: lightskyblue;
+    padding: 50px;
+    margin: 0px 50px 0px 50px;
+}
+
 /* -- Styling For nightMode which is activated via nightTime function --*/
  .nightMode {
      background: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
