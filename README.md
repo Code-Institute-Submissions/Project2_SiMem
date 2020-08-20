@@ -7,13 +7,13 @@ The skill to entry level is quite low on this game making it suitable for people
 # UX
 
 ## How To Play
-When starting to play any game the first question that comes to mind is "How do I play this?". In big font a "How To Play" button has been added to the screen that a user can click on to prompt a pop up. 
-The pop up is from an alert() added to the button. It outlines clearly the steps to start the game, how to play the game, what to do if you mess up, winning criteria and a good luck message to finish off.
+When starting to play any game the first question that comes to mind is "How do I play this?". In big font a "How To Play" button has been added to the screen that a user can click on to take them directly to a page with all the instructions on them. 
+They outline clearly the steps to start the game, how to play the game, what to do if you mess up, winning criteria and a good luck message to finish off.
 This ensures that nobody can arrive to the page and not know how to proceed with playing the game.   
 
 ## Clicks To Play
-As SiMem is for anyone the one aspect of the app that effects everyone is how many clicks it takes to begin the game. SiMem has been specifically designed to be playable in 2 clicks, 4 if one decides to select the "How To Play" button. 
-All clicks are also on the one page meaning once the page has been initially loaded there are no more pages to load thereafter. From personal experience having to sive through pages just to play the game each time can be extremely off putting over multiple plays. 
+As SiMem is for anyone, one aspect of the app that effects everyone is how many clicks it takes to begin the game. SiMem has been specifically designed to be playable in 2 clicks, 4 if one decides to select the "How To Play" button. 
+All clicks are also on the one page when actually playing the game meaning once the page has been initially loaded there are no more pages to load thereafter. From personal experience having to sive through pages just to play the game each time can be extremely off putting over multiple plays. 
 
 ## User Ambitions
 The user group for SiMem is anyone with basic computer skills simply look to play a game trying to: 
@@ -117,6 +117,54 @@ Testing completed with the lights off while in the dark to evaluate the differen
 When the user selects the Night Mode button the blue sky background is replace with the dark night sky. Instantly the strain on the users eyes are reduced due to the lack of white light being projected from the screen from the bright colour blue. 
 
 The opacity factor on the options instantly comes into play in order to reduce the harsh bright effect of the flash while playing the game. 
+
+# Validators
+
+### W3C HTML Validation Service
+
+No major issues detected. Validator did not understand source tags so it pops up as an error but the sounds audio files work correctly in game.
+
+### W3C CSS Validator Service
+No major issues detected. Validator did not understand certain colours selected. These error messages can be ignored. 
+
+# Known issues
+
+During the testing of the user game play one major issue was found just before finishing the project. As it stands if the user clicks the wrong option they must wait a second for the computer to repeat the process and the game works as expected. However if the user rapidly clicks wrong options it causes the game to bug out and the user must turn on and off the game in order to continute playing but must restart from the beginning. 
+
+Not enough time to troubleshoot issue. Instructions on how to play inform the user to wait for the computer to replay the sequence to mitigate from users stumbling upon the bug. 
+
+# Deployment
+
+The entire project has been coded on Gitpod starting from the first commit. It allows for the sharing of running workspaces making tutor/mentor sessions run smoother.
+
+In order to commit and push to GitHub:
+
+    git add .
+    git commit -m "Insert commit Message Here"
+    git push 
+
+After each main section of the project was completed a commit and push was used to ensure proper tracking and proper commit etiquette was used throughout. This also prevents the entire project being lossed due to unforeseen circumstances such as server crashes / late night server updates.
+
+GitHub Pages was used to deploy the site. Upon selecting a name for the project, "Settings" was selected. Then proceeded to the "GitHub Pages" section where the "Source" was switched to "Master branch". At the top of the page a link is then found to the deployed website where it is submitted during the project submission section for grading.
+
+# Credits 
+
+## Content & Acknowledgements
+
+The simplistic design of the game came from my own brainstorming as can be seen in the original mockup idea for Membrane in the Mockup section.  
+
+The idea to incorporate nightmode came from seeing some of my favourite apps such as Quora introduce night mode and I realised it was much easier to look at my phone in the dark. https://www.w3schools.com/howto/howto_js_toggle_class.asp gave me the idea of implementing night mode via "classList.toggle". I found it suited perfectly to the underlying code of the Night Mode button as the user may want to flick back and forth depending on mood and time of day. 
+
+During my online research phase prior to writing up the code for the SiMem game I came across the Edureka! "Developing a Simon Game Using Javascript" and Web Dev Junkie's "Live Coding a Simon Game". These were a massive driver for the game play portion of SiMem. This includes inspiration for the power button to begin activating the game. It is reminiscent of an arcade game turning on. These videos were used as a guide for how I approaced the game. I then adapted on this. Originially a strict mode was implemented in the game to add difficulty. I chose to incorporate the night mode feature instead. 
+
+## Media 
+
+Only two images were used in the making of the SiMem game. The blue sky and starry night seen when flicking on/off night mode. 
+
+Both images were found on https://www.pexels.com/. All images provided are copyright free and readily available on the site for anyone to use. 
+
+
+
 
 
 
