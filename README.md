@@ -110,7 +110,7 @@ When the user loads the website they are given all options to begin the game in 
 
 This way there is no question on how to navigate the game and keep the focus on beating SiMem
 
-### As a general user I want to Have the option to reduce the intensity of the brightness on my screen.
+### As a general user I want to have the option to reduce the intensity of the brightness on my screen.
 
 Testing completed with the lights off while in the dark to evaluate the difference in intensity of the light. 
 
@@ -155,7 +155,7 @@ The simplistic design of the game came from my own brainstorming as can be seen 
 
 The idea to incorporate nightmode came from seeing some of my favourite apps such as Quora introduce night mode and I realised it was much easier to look at my phone in the dark. https://www.w3schools.com/howto/howto_js_toggle_class.asp gave me the idea of implementing night mode via "classList.toggle". I found it suited perfectly to the underlying code of the Night Mode button as the user may want to flick back and forth depending on mood and time of day. 
 
-During my online research phase prior to writing up the code for the SiMem game I came across the Edureka! "Developing a Simon Game Using Javascript" and Web Dev Junkie's "Live Coding a Simon Game". These were a massive driver for the game play portion of SiMem. This includes inspiration for the power button to begin activating the game. It is reminiscent of an arcade game turning on. These videos were used as a guide for how I approaced the game. I then adapted on this. Originially a strict mode was implemented in the game to add difficulty. I chose to incorporate the night mode feature instead. 
+During my online research phase prior to writing up the code for the SiMem game I came across the Edureka! "Developing a Simon Game Using Javascript" and Web Dev Junkie's "Live Coding a Simon Game". These were a massive driver for the game play portion of SiMem. This includes inspiration for the power button to begin activating the game. It is reminiscent of an arcade game turning on. These videos were used as a guide for how I approached the game. Influence can be seen through the game with some of the option capabilities taken from how they did it in the video to overcome bugs in my own code at the time. I then adapted on this. Originially a strict mode was implemented in the game to add difficulty. I chose to incorporate the night mode feature instead. 
 
 ## Media 
 
